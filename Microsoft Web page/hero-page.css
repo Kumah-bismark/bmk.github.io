@@ -1,0 +1,117 @@
+.hero-background-section {
+    background-image: url('images/thumbnails/home-page.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 290px;
+    
+}
+
+.hero-intro-content {
+    color: white;
+    font-size: 43px;
+    padding-top: 60px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.beter-experience {
+    color: white;
+    font-size: 20px;
+    padding-top: 25px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-sign-in {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    padding: 14px 10px;
+    margin-top: 19px;
+    margin-left: 5px;
+    height: 8px;
+}
+
+.hero-sign-in:hover {
+    text-decoration: underline;
+}
+
+.hero-sign-in-section {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text-box-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hero-text-box {
+    padding: 15px 15px;
+    width: 610px;
+    box-shadow: 2 2 9;
+}
+
+.main-navigation-icon-section {
+    background-color: #F2F2F2;
+    padding-bottom: 10px;
+}
+
+.navigation-icon-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.microsoft-365-logo-container {
+    text-align: center;
+    padding: 13px 35px;
+}
+
+.microsoft-365-logo-container:hover {
+    cursor: pointer;
+}
+
+.microsoft-365-logo {
+    width: 50px;
+    text-align: center;
+}
+
+.microsoft-365-logo-name {
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.microsoft-365-logo-name:hover,
+.sub-navigation-icon-option:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sub-navigation-icon-option {
+    margin-left: 285px;
+    font-size: 13px;
+    color: #006CAC;
+    width: 190px;
+}
+
+  @media screen and (max-width: 1060px) {
+    .navigation-icon-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+        
+    }
+}
+

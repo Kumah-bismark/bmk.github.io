@@ -1,0 +1,202 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.microsoft-logo-container {
+    display: flex;
+    flex-shrink: 0;
+    width: 100;
+    height: 20px;
+    margin-left: 80px;
+    margin-top: 12px;
+    padding-right: 22px;
+    border-right-width: 2px;
+    border-right-color: black;
+    border-right-style: solid;
+
+}
+
+.microsoft-logo {
+    width: 100%;
+}
+
+.main-header-support-heading {
+    padding-top: 13px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.main-headr-middle-section {
+    display: flex;
+    
+}
+
+.main-header-microsoft-365-heading,
+.main-header-office-heading,
+.main-header-windows-heading,
+.main-header-surface-heading,
+.main-header-xbox-heading,
+.main-header-deals-heading,
+.main-header-buy-heading {
+    padding-top: 15px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.main-header-microsoft-365-heading {
+    display: flex;
+    flex-grow: 1;
+}
+
+.main-header-support-heading:hover,
+.main-header-microsoft-365-heading:hover,
+.main-header-office-heading:hover,
+.main-header-windows-heading:hover,
+.main-header-surface-heading:hover,
+.main-header-xbox-heading:hover,
+.main-header-deals-heading:hover,
+.main-header-buy-heading:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    cursor: pointer;
+}
+
+
+.main-header-buy-heading {
+    display: flex;
+    min-width: 100px;
+    height: 5px;    
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    padding: 10px 7px;
+    height: 8px;
+    margin-top: 8px;
+}
+
+.main-header-right-section {
+    display: flex;
+    margin-right: 120px; 
+}
+
+.main-header-right-section:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1188px) {    
+    .mian-header-sign-in-image,
+    .main-header-all-microsoft-heading,
+    .main-header-sign-in-heading,
+    .main-header-search-heading {
+        display: none;
+    }
+    .main-header-search-heading {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1053px) {    
+    .main-header-search-heading {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 980px) {    
+    .main-header-sign-in-heading {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 1003px) {    
+    .main-header-buy-heading {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 854px) {    
+    .main-header-deals-heading,
+    .main-header-xbox-heading {
+        display: none;
+    }    
+}
+
+@media screen and (max-width: 748px) {    
+    .main-header-surface-heading,
+    .main-header-windows-heading {
+        display: none;
+    }
+    
+}
+
+
+
+.main-header-all-microsoft-heading,
+.main-header-search-heading,
+.main-header-sign-in-heading {
+    padding-top: 15px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.main-header-sign-in-heading {
+   display: flex;
+}
+
+.sign-in-icon {
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.main-header-all-microsoft-heading:hover,
+.main-header-search-heading:hover,
+.main-header-sign-in-heading:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    cursor: pointer;
+}
+
+.main-header-sign-in-heading:active,
+.sign-in-icon:active {
+    cursor: pointer;
+}
+
+.sub-header {
+    background-color: #F2F2F2;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    
+}
+
+.sub-header-headings-container {
+    display: flex;
+    margin-left: 70px;
+}
+
+.sub-header-product-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 17px;
+    padding-right: 17px;
+   
+  
+}
+
+.sub-header-product-heading:hover {
+    background-color: #b9b9b9;
+    
+}
+
+span {
+    color: gray;
+}
+

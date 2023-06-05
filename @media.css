@@ -1,0 +1,165 @@
+@media only screen and (max-width: 1440px) {
+    .my-picture img{
+        width: 23em;
+    }
+    .summary-intro h4, .summary-intro h1, .summary-content {
+        font-size: 1.1em;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    .my-picture img{
+        width: 20em;
+    }
+    .summary-intro h4, .summary-intro h1, .summary-content {
+        font-size: 1.05em;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .my-picture img{
+        width: 19.5em;
+    }
+    .summary-intro h4, .summary-intro h1, .summary-content {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .my-picture img{
+        width: 19em;
+    }
+    .summary-intro h4, .summary-intro h1, .summary-content {
+        font-size: 0.99em;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .my-picture img{
+        width: 18em;
+    }
+    .summary-intro h4, .summary-intro h1, .summary-content {
+        font-size: 0.90em;
+    }
+}
+
+@media only screen and (max-width: 1095px) {
+    .my-picture img{
+        width: 16em;
+    }
+    .summary-intro h4, .summary-intro h1, .summary-content {
+        font-size: 0.80em;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .my-picture img{
+        width: 14em;
+    }
+}
+
+@media only screen and (max-width: 945px) {
+    .my-picture img{
+        width: 13em;
+    }
+
+    .header-list ul {
+        gap: 8vh;  
+        
+    }
+
+
+}
+
+@media only screen and (max-width: 917px) {
+    .my-picture img{
+        width: 12em;
+    }
+
+    .header-list ul {
+        gap: 5vh;  
+        
+    }
+}
+
+@media only screen and (max-width: 894px) {
+    .my-picture img{
+        width: 11em;
+    }
+}
+
+@media only screen and (max-width: 873px) {
+    .my-picture img{
+        width: 9em;
+    }
+
+    .summary-intro {
+        margin-top: 5vh;
+    }
+
+    .hire-me {
+        font-size: 0.8em;
+        padding: 6px 16px;        
+        margin-left: 20%;
+        margin-top: 3vh;
+    } 
+}
+
+
+@media only screen and (max-width: 825px) {
+    .header-list {
+        margin-right: 0vh;
+    }
+}
+
+
+
+@media only screen and (max-width: 820px) {
+
+    .first-container {
+        display: block;
+        justify-content: space-between;
+        margin: 0 18%;
+    }
+
+    .my-picture img{
+        width: 15em;
+        margin-left: 25%;
+    }
+
+    .summary {
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    .hire-me {
+        font-size: 0.8em;
+        padding: 6px 16px;        
+        margin-left: 0;
+        margin-top: 3vh;
+    } 
+
+    .header-list ul{
+        display: none;
+    }
+
+    .header-list .menu img {
+        display:block;
+        margin-right: 3rem;
+    }
+}
+
+
+@media only screen and (max-width: 746px) {
+    
+     .my-picture img{
+        margin-left: 4rem;
+    }
+  
+}
+
+

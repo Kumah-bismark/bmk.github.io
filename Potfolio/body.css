@@ -1,0 +1,88 @@
+body {
+    background-color: #1F2235;
+    color: white;
+    font-family: roboto, Arial;
+    padding-top: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0px;
+}
+
+
+.body-section {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    row-gap: 1rem;
+    padding-top: 90px;
+    margin-left: 100px;
+    
+}
+
+.welcome {
+    color: #FF505C;
+    font-weight: 700;
+    letter-spacing: 20px;
+    font-size: 30px;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+
+.job-name {
+    margin-top: 0;
+    font-size: 50px;
+    font-weight: 400;
+    max-width: 100rem;
+}
+
+.brief-intro {
+    line-height: 36px;
+    font-size: 23px;
+    text-align: justify;
+    max-width: 100%;
+}
+
+.my-photo-cont {
+    width: 715px;
+    max-width: 100%;
+}
+.my-photo {
+    width: 450px;
+    padding-left: 200px;
+}
+
+.social-media-nav {
+    display: flex;
+    gap: 4rem;
+    margin-top: 50px;
+}
+
+.facebook-cont {
+    width: 50px;
+    cursor: pointer;
+}
+
+.facebook {
+    width: 100%;
+    background-color: #FF505C;
+    border-radius: 50%;
+    transition: 0.11s;
+    
+}
+
+.facebook:hover {
+    background-color: white;
+    transition: 0.11s;
+    transform: scale(1.8); 
+}
+
+.facebook:active {
+    background-color: rgb(192, 192, 192);
+    transition: 0.11s;
+}

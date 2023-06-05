@@ -1,0 +1,132 @@
+.trending-topics,
+.explore-heading,
+.more-support-options {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.trending-topics-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.trending-topics-category-headings {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.available-programs {
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: #006CAC;
+}
+
+.available-programs:hover {
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+
+.copilot-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.copilot-image-container {
+    margin-right: 100px;
+}
+
+.copilot-image {
+    width: 600px;
+}
+
+.copilot-content-heading {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.5;
+    
+}
+
+.main-content {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.pilot-first-link,
+.pilot-second-link {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #006CAC;
+} 
+
+.pilot-first-link:hover,
+.pilot-second-link:hover,
+.drag-and-drop-link-1:hover,
+.drag-and-drop-link-2:hover  {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.drag-and-drop-section {
+    display: flex;
+}
+
+.drag-and-drop-image {
+    height: 170px;
+}
+
+.drag-and-drops-content {
+    width: 310px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.drag-drop-heading {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.drag-and-drop-info {
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+
+.drag-and-drop-link-1,
+.drag-and-drop-link-2 {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 13px;
+    color: #006CAC;
+
+}
+
+.drag-and-drop-link-2 {
+    margin-bottom: 0px;
+}
+
+.exlpore-first-flex,
+.exlpore-second-flex  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+
+.support-options-container {
+    background-color:  #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+

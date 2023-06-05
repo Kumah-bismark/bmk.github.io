@@ -1,0 +1,37 @@
+.header-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-cont {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    
+}
+
+.logo-image {
+    object-fit: cover;
+    width: 60px;
+    border-radius: 50px;
+}
+
+.home {
+    display: flex;
+    color: white;
+    
+}
+
+.home:hover {
+    cursor: pointer;
+    color:  #FF505C;
+    transition: 0.15s;
+}
+
+.navigation-section {
+    display: flex;
+    gap: 3rem;
+    font-weight: 700;
+    height: 30px;
+    cursor: pointer;
+}
